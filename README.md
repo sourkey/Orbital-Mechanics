@@ -9,8 +9,12 @@ Define an orbital object and use the optional `name` keyword argument.
 
 Next, begin to define the orbital parameters, such as the semimajor axis, the semiminor axis, and orbit eccentricity. The program is intended to be used with metric values (i.e. distances in km).
 
-calcOrbit(smajor=4000, sminor=0, e=0, steps=50, table='hide', image='hide', summary='hide')
+	sat1.calcOrbit(smajor=4000, sminor=0, e=0, steps=50, table='hide', image='hide', summary='hide')
 	
 Set semimajor and semiminor values. Eccentricity, e, can be specified if the semiminor value is left blank, otherwise it will be calculated. 
 
 Use 'show' for table and image keyword arguments to show the position with the desired step size.
+
+To see the number of objects in orbit use the `showInOrbit` method.
+
+	sat1.showInOrbit()
