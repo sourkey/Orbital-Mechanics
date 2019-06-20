@@ -1,4 +1,4 @@
-# OrbitalMechanics
+# Orbital-Mechanics
 
 A compilation of a few methods used to calculate orbits. This class supports circular and elliptical orbit geometries.
 
