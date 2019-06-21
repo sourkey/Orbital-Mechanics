@@ -69,4 +69,4 @@ class Orbit:
             print('Major Axis:', self.smajor)
             print('Eccentricity:', self.eccen)
             print('Steps:', self.steps)
-            print('Orbital Period:')
+            print('Orbital Speed:', self.speed)
