@@ -12,7 +12,7 @@ Initialize an orbital object and use the optional `name` keyword argument.
 
 Define the orbital parameters: 
 
-	sat1.calcOrbit(smajor=4000, steps=50, table='hide', image='hide', summary='hide')
+	sat1.circularOrbit(smajor=4000, steps=50, table='hide', image='hide', summary='hide')
 	
 The number of steps in the calculation is set to 50 by default. 
 
