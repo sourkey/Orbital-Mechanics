@@ -10,7 +10,7 @@ Initialize an orbital object and use the optional `name` keyword argument.
 
 ### Circular Orbit
 
-Define the orbital parameters: 
+Define orbital parameters: 
 
 	sat1.circularOrbit(smajor=4000, steps=50, table='hide', image='hide', summary='hide')
 	
@@ -20,7 +20,13 @@ For a circular orbit, the true anomoly, mean anomoly, and eccentric anomoly are 
 
 ### Elliptical Orbit
 
-:rocket: Coming soon!
+Define orbital parameters:
+
+	sat1.ellipticalOrbit(smajor=6000, sminor=4000, steps=50, table='hide', image='hide', summary='hide')
+
+The number of steps in the calculation is set to 50 by default.
+
+Eccentricity is calculated based on the semimajor and semiminor values. Position is calculated using true anomoly. 
 
 ### Optional Keyword Arguments
 
